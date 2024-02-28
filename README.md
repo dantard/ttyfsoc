@@ -21,7 +21,14 @@ Una única vez (pip3 o pip):
 pip3 install argparse readchar serial
 ```
 
-### 3. Hacer el fichero ejecutable
+### 3. Clonar el repositorio
+
+Una única vez:
+```
+git clone https://github.com/dantard/ttyfsoc.git
+```
+
+### 4. Hacer el fichero ejecutable
 
 Una única vez:
 ```
@@ -29,7 +36,7 @@ cd ttyfsoc
 chmod +x fsoc.py
 ```
 
-4. Ejecutar tx y rx
+5. Ejecutar tx y rx
 ```
 ./fsoc.py -p /dev/ttyUSB3 -t rx
 ```
