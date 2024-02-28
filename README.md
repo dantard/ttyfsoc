@@ -36,7 +36,7 @@ cd ttyfsoc
 chmod +x fsoc.py
 ```
 
-5. Ejecutar tx y rx
+### 5. Ejecutar tx y rx
 ```
 ./fsoc.py -p /dev/ttyUSB3 -t rx
 ```
